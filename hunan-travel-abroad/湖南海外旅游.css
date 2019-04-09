@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+#top {
+    height: 195x;
+    width: 100%;
+}
+/* 顶部样式1开始 */
+#top #top_1 {
+    background-color: #f1f1f1;
+    height: 34px;
+    width: 100%;
+}
+#top #top_1 #top_1_1 {
+    height: 34px;
+    width: 1185px;
+    margin: 0px auto;
+    line-height: 34px;
+}
+#top #top_1 #top_1_1 .top_txt {
+    color: #888;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#header_top1 {
+    width: 200px;
+    display: inline;
+    float: left;
+}
+#header_top2 {
+    float: right;
+    display: inline;
+    width: 400px;
+    height: 34px;
+}
+#top #top_1 #top_1_1 #header_top1 .logo1 {
+    padding-left: 10px;
+}
+#top #top_1 #top_1_1 .hover:hover {
+    color: red;
+}
+#top #top_1 #top_1_1 a:hover {
+    color: red;
+}
+/* 顶部样式1结束 */
+
+/* 顶部样式2开始 */
+#top #top_2 {
+    height: 120px;
+    width: 100%;
+    background-color: white;
+}
+#top #top_2 #top_2_2 {
+    width: 1180px;
+    height: 120px;
+    margin: 0px auto;
+}
+#top .logo {
+    float: left;
+}
+#top .search {
+    float: left;
+    width: 410px;
+    height: 120px;
+}
+
+#top #top_2 #top_2_2 .search .search_1 {
+    height: 28px;
+    width: 80px;
+    background-color: #f1f1f1;
+    position: relative;
+}
+#top #top_2 #top_2_2 .search #search_bor {
+    width: 400px;
+    height: 30px;
+    border: 2px #e40074 solid;
+    margin: 35px 100px;
+}
+#top #top_2 #top_2_2 .search .search_1 span {
+    position: absolute;
+    left: 12px;
+    top: 6px;
+    color: #888;
+}
+#top #top_2 #top_2_2 .search .nav {
+    text-decoration: none;
+    color: #888;
+}
+#top #top_2 #top_2_2 .search ul li{
+    list-style-type: none;
+    float: left;
+    margin: 38px 7px 38px 0px;
+    display: inline;
+}
+#top #top_2 #top_2_2 .search #search_bor img {
+    position: relative;
+    left: 87px;
+    top: -30px;
+} 
+#top #top_2 #top_2_2 .search #search_bor input {
+    position: relative;
+    left: -150px;
+    top: -60px;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: medium;
+    border: 0;
+}
+#top .phone {
+    float: right;
+}
+/* 顶部样式2结束 */
+
+/* 顶部样式3开始 */
+#top #top_3 {
+    background-color: #e40074;
+    height: 40px;
+    width: 100%;
+}
+#top #top_3 #top_3_3 {
+    width: 1180px;
+    height: 40px;
+    margin: 0px auto;
+    position: relative;
+}
+#top #top_3 #top_3_3 .left {
+    height: 40px;
+    width: 220px;
+    background-color: #f03c99;
+    line-height: 40px;
+    padding-left: 40px;
+}
+#top #top_3 #top_3_3 .left span {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+#top #top_3 #top_3_3 .right {
+    height: 40px;
+    width: 900px;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+#top #top_3 #top_3_3 .right ul {
+    list-style-type: none;
+    position: relative;
+}
+#top #top_3 #top_3_3 .right ul a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: 0px 15px;
+    font-size: 15px;
+    line-height: 40px;
+}
+#top #top_3 #top_3_3 .right ul a:hover {
+    background-color: #f03c99;
+    text-decoration: underline;
+}
+#top #top_3 #top_3_3 .left .menu {
+    height: 410px;
+    width: 220px;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    line-height: 25px;
+}
+#top #top_3 #top_3_3 .left .menu p {
+    color: #999;
+}
+#top #top_3 #top_3_3 .left .menu h4 {
+    line-height: 28px;
+    padding-left: 40px;
+    margin-top: 6px;
+}
+#top #top_3 #top_3_3 .left .menu p a {
+    text-decoration: none;
+    color: #999;
+    margin-left: 15px;
+}
+#top #top_3 #top_3_3 .left .menu p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#top #top_3 #top_3_3 .left .menu div {
+    border-bottom: 1px #ddd solid;
+}
+#top #top_3 #top_3_3 .left .menu .img1 {
+    background-image: url("img1.png");
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 2px;    
+}
+#top #top_3 #top_3_3 .left .menu .img2 {
+    background-image: url("img2.png");
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 2px; 
+}
+#top #top_3 #top_3_3 .left .menu .img3 {
+    background-image: url("img3.png");
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 2px; 
+}
+#top #top_3 #top_3_3 .left .menu .img4 {
+    background-image: url("img4.png");
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 2px; 
+}
+#top #top_3 #top_3_3 .left .menu .img5 {
+    background-image: url("img5.png");
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 2px; 
+}
+#top #top_3 #top_3_3 .left .menu .img6 {
+    background-image: url("img6.png");
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 2px; 
+}
+/* 顶部样式3结束 */
+
+/* 中间样式开始 */
+#bgcol {
+    width: 100%;
+    height: 410px;
+    background: url("contant.jpeg");
+}
+/* 中间样式结束 */
+/* 当季热卖样式开始 */
+#main {
+    background-color: white;
+    text-align: center;
+}
+#main h1 {
+    font-size: 36px;
+    margin-top: 48px;
+}
+#main .rm {
+    margin-right: 12px;
+    width: 286px;
+    height: 256px;
+    margin-top: 45px;
+}
+#main .rm,.cj,.gn {
+    margin-top: 45px;
+}
+/* 当季热卖样式结束 */
+/* 右侧导航样式开始 */
+#adver {
+    position: fixed;
+    right: 0px;
+    top: 270px;
+}
+/* 右侧导航样式结束 */
