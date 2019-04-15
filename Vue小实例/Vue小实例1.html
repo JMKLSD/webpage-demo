@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <input type="button" value="Click me" v-on:click="first">
+        <p> {{ msg }}</p>
+    </div>
+
+
+    <script>
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                msg: "点击按钮之后这里可以滚动~"
+            },
+            methods: {
+                first() {
+
+                    setInterval(() => {
+                        var start = this.msg.substring(0, 1)
+                        var end = this.msg.substring(1)
+                        this.msg = end + start
+                    }, 400)
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
