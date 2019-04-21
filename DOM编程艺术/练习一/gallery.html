@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <script src="scripts/showPic.js"></script>
+    <style>
+        img {
+            width: 400px;
+            height: 300px;
+            display: block;
+            clear: both;
+        }
+        body {
+            font-family: "Arial",serif;
+            color: #333;
+            background: #ccc;
+            margin: 1em 10%;
+        }
+        h1 {
+            color: #333;
+            background-color: transparent;
+        }
+        a {
+            color: #c60;
+            background-color: transparent;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        ul {
+            padding: 0;
+        }
+        li {
+            float: left;
+            padding: 1em;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href="images/flower.jpg" title="A fireworks display" onclick="showPic(this); return false;">Fireworks</a>
+        </li>
+        <li>
+            <a href="images/girl.jpg" title="A cup of black coffee" onclick="showPic(this);return false;">Coffee</a>
+        </li>
+        <li>
+            <a href="images/picture.jpeg" title="A red, red rose" onclick="showPic(this);return false;">Rose</a>
+        </li>
+        <li>
+            <a href="images/trees.jpg" title="The famous clock" onclick="showPic(this);return false;">Big Ben</a>
+        </li>
+    </ul>
+    <img src="images/01.jpeg" id="placeholder">
+    
+    <p id="description">Choose an image.</p>
+</body>
+</html>
