@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        div {
+            text-align: center;
+            height: 600px;
+            padding: 10px;
+        }
+        img {
+            height: 500px;
+            margin: 20px auto;
+            background-color: yellow;
+        }
+        
+        #did > p {
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div id="did">
+        <img src="images/001.jpeg" alt="picture">
+        <br>
+        <button id="btn1">上一张</button>
+        <button id="btn2">下一张</button>
+    </div>
+
+    <script>
+        var btn1 = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+        var imagesArr = ["images/001.jpeg", "images/002.jpeg", "images/003.jpeg", "images/004.jpeg"]
+        var index = 0;
+        var img = document.getElementsByTagName("img")[0];
+        var info = document.getElementById("info");
+        info.innerHTML = "共有"+imagesArr.length+"张图片，" + "当前为第"+ (index+1) + "张。" ;
+        btn1.onclick = function() {
+            index--;
+            if(index < 0) {
+                index = imagesArr.length - 1
+            }
+            img.src = imagesArr[index];
+            info.innerHTML = "共有"+imagesArr.length+"张图片，" + "当前为第"+ (index+1) + "张。" ;
+        }
+        btn2.onclick = function() {
+            index++;
+            if(index > imagesArr.length -1 ) {
+                index = 0;
+            }
+            img.src = imagesArr[index];
+            info.innerHTML = "共有"+imagesArr.length+"张图片，" + "当前为第"+ (index+1) + "张。" ;
+        }
+    </script>
+</body>
+</html>
