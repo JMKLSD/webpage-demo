@@ -1,6 +1,39 @@
 # 这里是一些模仿或者创作的效果页面
 ## 传送门
-1. 方块滑落效果
-    * 预览地址
-    * 代码地址
-2. 
+
+1. 图片悬浮
+    * [预览地址](https://shiyutim.github.io/webpage-demo/picture-of-suspension/picture-of-suspension.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/picture-of-suspension/picture-of-suspension.html)
+2. 图片3D悬浮
+    * [预览地址](https://shiyutim.github.io/webpage-demo/%E5%9B%BE%E7%89%873d%E6%82%AC%E6%B5%AE/index.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/%E5%9B%BE%E7%89%873d%E6%82%AC%E6%B5%AE/index.html)
+3. 流星雨特效
+    * [预览地址](https://shiyutim.github.io/webpage-demo/%E6%B5%81%E6%98%9F%E9%9B%A8%E7%89%B9%E6%95%88/meteor-shower.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/%E6%B5%81%E6%98%9F%E9%9B%A8%E7%89%B9%E6%95%88/meteor-shower.html)
+4. 漂亮的搜索框
+    * [预览地址](https://shiyutim.github.io/webpage-demo/beautiful-search/beautiful-search.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/beautiful-search/beautiful-search.html)
+5. 个人卡片介绍
+    * [预览地址](https://shiyutim.github.io/webpage-demo/%E4%B8%AA%E4%BA%BA%E5%8D%A1%E7%89%87%E4%BB%8B%E7%BB%8D/index.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/%E4%B8%AA%E4%BA%BA%E5%8D%A1%E7%89%87%E4%BB%8B%E7%BB%8D/index.html)
+6. 图片荧光效果
+    * [预览地址](https://shiyutim.github.io/webpage-demo/%E5%9B%BE%E7%89%87%E8%8D%A7%E5%85%89%E6%95%88%E6%9E%9C/index.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/%E5%9B%BE%E7%89%87%E8%8D%A7%E5%85%89%E6%95%88%E6%9E%9C/index.html)
+7. Login
+    * [预览地址](https://shiyutim.github.io/webpage-demo/login-demo/index.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/login-demo/index.html)
+8. 加载效果
+    * [预览地址](https://shiyutim.github.io/webpage-demo/%E5%8A%A0%E8%BD%BD%E6%95%88%E6%9E%9C/index.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/%E5%8A%A0%E8%BD%BD%E6%95%88%E6%9E%9C/index.html)
+9. 云杏官网
+    * [预览地址](https://shiyutim.github.io/webpage-demo/%E4%BA%91%E6%9D%8F/index.html)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/%E4%BA%91%E6%9D%8F/index.html)
+10. 侧边导航栏
+    * [预览地址](https://shiyutim.github.io/webpage-demo/%E4%BE%A7%E8%BE%B9%E5%AF%BC%E8%88%AA%E6%A0%8F/Index.html#)
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/%E4%BE%A7%E8%BE%B9%E5%AF%BC%E8%88%AA%E6%A0%8F/Index.html)
+11. 方块滑落效果
+    * [预览地址](https://shiyutim.github.io/webpage-demo/%E6%96%B9%E5%9D%97%E6%BB%91%E8%90%BD%E6%95%88%E6%9E%9C/index.html)**注：因为不能显示JS，所以看不出来效果**
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/%E6%96%B9%E5%9D%97%E6%BB%91%E8%90%BD%E6%95%88%E6%9E%9C/index.html)
+12. JS按钮轮播图
+    * [预览地址](https://shiyutim.github.io/webpage-demo/JS%E6%8C%89%E9%92%AE%E8%BD%AE%E6%92%AD%E5%9B%BE/index.html)**注：因为不能显示JS，所以看不出来效果**
+    * [代码地址](https://github.com/shiyutim/webpage-demo/blob/master/JS%E6%8C%89%E9%92%AE%E8%BD%AE%E6%92%AD%E5%9B%BE/index.html)
